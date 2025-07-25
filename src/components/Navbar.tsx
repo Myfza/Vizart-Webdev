@@ -127,7 +127,7 @@ const Header = () => {
           {/* Logo - Left Aligned with Proper Spacing */}
           <div className="flex items-center space-x-1 flex-shrink-0">
             <img
-              src="/Logo-vizart.png"
+              src="/llogo-vizart.png"
               alt="Vizart Logo"
               className="w-16 h-10 sm:w-20 sm:h-12 md:w- md:h-14 rounded-lg object-contain hover:scale-15 transition-transform duration-300"
               style={{ 

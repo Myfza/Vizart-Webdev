@@ -7,9 +7,9 @@ const Certifications = () => {
   const getCertificationImage = (certId: number) => {
     // Try to get certification-specific image first, fallback to default
     const certImages: { [key: number]: string } = {
-      1: 'Sertifikat 1.png',
-      2: 'Sertifikat 2.png',
-      3: 'Sertifikat 3.png',
+      1: '/sertifikat-1.png',
+      2: '/sertifikat-2.png',
+      3: '/sertifikat-3.png',
     };
     
     // Fallback images if specific cert images don't exist

@@ -69,7 +69,7 @@ const TechStack = () => {
         { name: 'TensorFlow', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg', color: 'from-orange-400 to-yellow-400' },
         { name: 'Pytorch', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg', color: 'from-red-500 to-orange-400' },
         { name: 'ROS', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ros/ros-original.svg', color: 'from-indigo-500 to-indigo-300' },
-         { name: 'N8n', src: '/n8n-color.png',
+         { name: 'N8n', src: '/nnn-color.png',
       color: 'from-pink-500 to-pink-300',
     },
       ],
@@ -84,7 +84,7 @@ const TechStack = () => {
     },
     {
       name: 'Framer',
-      src: 'Framer-Icon.png',
+      src: '/framer-Icon.png',
       color: 'from-gray-500 to-gray-400',
     },
     {
@@ -104,7 +104,7 @@ const TechStack = () => {
     },
     {
       name: 'LottieFiles',
-      src: 'LottieFiles.png',
+      src: '/lottiefiles.png',
       color: 'from-blue-400 to-indigo-400',
     },
     {
@@ -119,17 +119,17 @@ const TechStack = () => {
     },
     {
       name: 'Coolors',
-      src: 'Coolors.png',
+      src: '/coolors.png',
       color: 'from-purple-600 to-purple-400',
     },
     {
       name: 'MockFlow',
-      src: 'mockflow-icon.png',
+      src: '/mockflow-icon-1.png',
       color: 'from-blue-700 to-blue-500',
     },
         {
       name: 'Spline',
-      src: 'spline.logo.png',
+      src: '/spline-1.png',
       color: 'from-pink-500 to-orange-400',
     },
         {
@@ -144,12 +144,12 @@ const TechStack = () => {
       technologies: [
         {
   name: 'Winbox',
-  src: 'Winbox.png',
+  src: '/winbox.png',
   color: 'from-blue-500 to-sky-500',
 },
 {
   name: 'VirtualBox',
-  src: 'vmware.png',
+  src: '/vmware-1.png',
   color: 'from-blue-600 to-orange-500',
 },
 {
