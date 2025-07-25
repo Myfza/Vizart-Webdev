@@ -9,17 +9,17 @@ const Portfolio = () => {
   const getProjectImage = (projectId: number) => {
     // Try to get project-specific image first, fallback to default
     const projectImages: { [key: number]: string } = {
-      1: '/project-1 (2).png',
-      2: '/project-1 (1).png', 
-      3: '/project-1 (7).png',
-      4: '/project-1 (6).png',
-      5: '/project-1 (5).png',
-      6: '/project-1 (10).png',
-      7: '/project-1.png',
-      8: '/project-1 (4).png',
-      9: '/project-1 (3).png',
-      10: '/project-1 (8).png',
-      11: '/project-1 (9).png',
+      1: 'project-1 (2).png',
+      2: 'project-1 (1).png', 
+      3: 'project-1 (7).png',
+      4: 'project-1 (6).png',
+      5: 'project-1 (5).png',
+      6: 'project-1 (10).png',
+      7: 'project-1.png',
+      8: 'project-1 (4).png',
+      9: 'project-1 (3).png',
+      10: 'project-1 (8).png',
+      11: 'project-1 (9).png',
     };
     
     return projectImages[projectId] || 'https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800';

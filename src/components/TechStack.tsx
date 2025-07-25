@@ -84,7 +84,7 @@ const TechStack = () => {
     },
     {
       name: 'Framer',
-      src: '/Framer-Icon.png',
+      src: 'Framer-Icon.png',
       color: 'from-gray-500 to-gray-400',
     },
     {
@@ -104,7 +104,7 @@ const TechStack = () => {
     },
     {
       name: 'LottieFiles',
-      src: '/LottieFiles.png',
+      src: 'LottieFiles.png',
       color: 'from-blue-400 to-indigo-400',
     },
     {
@@ -119,17 +119,17 @@ const TechStack = () => {
     },
     {
       name: 'Coolors',
-      src: '/Coolors.png',
+      src: 'Coolors.png',
       color: 'from-purple-600 to-purple-400',
     },
     {
       name: 'MockFlow',
-      src: '/mockflow-icon.png',
+      src: 'mockflow-icon.png',
       color: 'from-blue-700 to-blue-500',
     },
         {
       name: 'Spline',
-      src: '/spline.logo.png',
+      src: 'spline.logo.png',
       color: 'from-pink-500 to-orange-400',
     },
         {
@@ -144,12 +144,12 @@ const TechStack = () => {
       technologies: [
         {
   name: 'Winbox',
-  src: '/Winbox.png',
+  src: 'Winbox.png',
   color: 'from-blue-500 to-sky-500',
 },
 {
   name: 'VirtualBox',
-  src: '/vmware.png',
+  src: 'vmware.png',
   color: 'from-blue-600 to-orange-500',
 },
 {

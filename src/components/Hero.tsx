@@ -21,7 +21,7 @@ const Hero = () => {
 
   const downloadCV = () => {
     const link = document.createElement('a');
-link.href = '/Muhammad-Yusuf-CV.pdf';
+link.href = 'Muhammad-Yusuf-CV.pdf';
 link.download = 'Muhammad-Yusuf-CV.pdf';
     document.body.appendChild(link);
     link.click();
