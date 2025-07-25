@@ -1,4 +1,4 @@
-#Vizart — Portfolio Website by Yusuf Aditiya
+## Vizart — Portfolio Website by Yusuf Aditiya
 
 Welcome to **Vizart**, the personal portfolio website of **Muhammad Yusuf Aditiya**. This site showcases my creative and technical skills in **Full-Stack Development**, **UI/UX Design**, and **Automation Engineering**.
 
