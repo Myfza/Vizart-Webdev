@@ -44,3 +44,15 @@ npm install
 
 # 3. Run locally
 npm run dev
+
+```
+
+## 🤝 Contributions
+
+Feel free to fork the repo and submit pull requests. Contributions are welcome!
+
+## 👨‍💻 Author
+
+Made by **Muhammad Yusuf Aditiya (Myfza)**  
+🔗 [GitHub](https://github.com/Myfza) | [LinkedIn](https://www.linkedin.com/in/myfza)
+
