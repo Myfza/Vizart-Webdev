@@ -208,7 +208,7 @@ githubUrl:'https://github.com/Myfza/Vixert-File-Converter-Website',
 {
   id: 14,
   title: 'ORBITRON - 3d TRON-style grid-based survival game',
-  category: 'Full-Stack Development',
+  category: 'Game Development',
   description: 'A 3D TRON-style grid-based survival game built with Three.js, featuring AI opponents, power-ups, collapsing sections, and dynamic gameplay mechanics.',
   image: getProjectImage(13),
   technologies: ['Three.js', 'JavaScript', 'CSS', 'HTML5'],
