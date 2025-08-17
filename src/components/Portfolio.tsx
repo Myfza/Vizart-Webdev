@@ -233,7 +233,7 @@ githubUrl:'https://github.com/Myfza/Vixert-File-Converter-Website',
   title: "Tetris Game in Python (Pygame)",
   category: "Game Development",
   description: "Classic Tetris built in Python using the pygame library, including a scoring system, block rotation, collision detection, and a level system.",
-  image: "getProjectImage(14)",
+  image: getProjectImage(14),
   technologies: ["Python", "Pygame", "tkinter","JavaSript","CSS","HTML5"],
   features: [
     "Includes all 7 classic Tetris block shapes (I, J, L, O, S, T, Z)",
