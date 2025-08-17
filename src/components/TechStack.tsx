@@ -1,6 +1,6 @@
 import React from "react"; 
 import { motion } from "framer-motion";
-const TechIcon = ({ src, name, className = "" }) => {
+const TechIcon = ({src, name, className = "" }) => {
   return (
     <img
       src={src}
