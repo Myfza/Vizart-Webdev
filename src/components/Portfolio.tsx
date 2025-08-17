@@ -20,6 +20,9 @@ const Portfolio = () => {
       9: '/project-3.png',
       10: '/project-18.png',
       11: '/project-9.png',
+      12: '/project-31.png',
+      13: '/project-32.png',
+      14: '/project-33.png',
     };
     
     return projectImages[projectId] || 'https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800';
@@ -137,7 +140,7 @@ const Portfolio = () => {
   category: 'Full-Stack Development',
   description: 'FileConvertPro is a robust and user-friendly web application designed for **fast and secure file conversions** across multiple formats. It supports a wide range of file types (e.g., images, documents, audio, video) and provides a seamless conversion experience with a clean, intuitive interface.',
   image: getProjectImage(9),
-  technologies: ['React', 'Node.js', 'Python', 'TailwindCSS', 'Multer', 'FFmpeg (backend)', 'Cloudinary (for storage/processing)', 'WebAssembly (for client-side conversion)'],
+  technologies: ['React', 'Node.js', 'Python', 'CSS', 'Multer', 'FFmpeg (backend)', 'Cloudinary (for storage/processing)', 'WebAssembly (for client-side conversion)'],
   features: [
     'Support for multiple file formats (e.g., PDF, JPG, MP4, MP3)',
     'Fast & efficient conversion process',
@@ -185,6 +188,38 @@ githubUrl:'https://github.com/Myfza/Vixert-File-Converter-Website',
   ],
   liveUrl: 'https://notebookself.netlify.app',
   githubUrl: 'https://github.com/Myfza/Personal-bookself-website', 
+},
+{
+  id: 13,
+  title: 'Vizziz - Interactive Quiz Platform',
+  category: 'Full-Stack Development',
+  description: 'An engaging and interactive quiz platform that allows users to create, share, and participate in quizzes with real-time features and comprehensive analytics.',
+  image: getProjectImage(12),
+  technologies: ['React', 'TypeScript', 'Vite', 'Node.JS', 'CSS', 'Netlify'],
+  features: [
+    'Quiz Builder: Intuitive interface to create quizzes with multiple question types',
+    'Question Types: Multiple choice, true/false, fill-in-the-blank, and short answer questions',
+    'Time Management: Set custom time limits for questions and entire quizzes',
+    'Real-time Leaderboard: Track scores and rankings during and after quizzes'
+  ],
+  liveUrl: 'https://vizziz.netlify.app/',
+  githubUrl: 'https://github.com/Myfza/Vizziz-Interactive-Quiz-Platform', 
+},
+{
+  id: 14,
+  title: 'ORBITRON - 3d TRON-style grid-based survival game',
+  category: 'Full-Stack Development',
+  description: 'An engaging and interactive quiz platform that allows users to create, share, and participate in quizzes with real-time features and comprehensive analytics.',
+  image: getProjectImage(13),
+  technologies: ['React', 'Three.js', 'JavaScript', 'CSS', 'Netlify'],
+  features: [
+    'Quiz Builder: Intuitive interface to create quizzes with multiple question types',
+    'Question Types: Multiple choice, true/false, fill-in-the-blank, and short answer questions',
+    'Time Management: Set custom time limits for questions and entire quizzes',
+    'Real-time Leaderboard: Track scores and rankings during and after quizzes'
+  ],
+  liveUrl: 'https://orbitron-games.netlify.app/',
+  githubUrl: 'https://github.com/Myfza/Orbritron-games-js', 
 },
   ];
 
