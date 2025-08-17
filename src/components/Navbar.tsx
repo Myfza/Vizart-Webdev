@@ -96,6 +96,7 @@ const Header = () => {
 
   const navItems = [
     { name: 'About', href: '#about', icon: User },
+    { name: 'Service', href: '#services', icon: Briefcase },
     { name: 'Project', href: '#portfolio', icon: Briefcase },
     { name: 'Experience', href: '#experience', icon: Award },
     { name: 'Testimonials', href: '#testimonials', icon: MessageSquare },
