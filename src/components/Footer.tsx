@@ -55,7 +55,7 @@ const Footer = () => {
                   href="#portfolio"
                   className="text-sm sm:text-base text-gray-400 hover:text-white transition-colors font-poppins"
                 >
-                  Portfolio
+                  Project
                 </a>
               </li>
               <li>
