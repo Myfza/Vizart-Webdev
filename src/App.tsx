@@ -20,15 +20,12 @@ function App() {
     setIsLoading(false);
   };
 
-  // Fix untuk viewport dan scroll
   useEffect(() => {
-    // Pastikan viewport meta tag sudah benar
     const viewport = document.querySelector('meta[name="viewport"]');
     if (viewport) {
       viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes');
     }
 
-    // Fix untuk iOS Safari viewport
     const fixViewport = () => {
       document.body.style.height = window.innerHeight + 'px';
     };

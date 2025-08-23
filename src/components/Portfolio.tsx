@@ -14,7 +14,7 @@ const Portfolio = () => {
       3: '/project-177.png',
       4: '/project-16.png',
       5: '/project-15.png',
-      6: '/project-10.png',
+      6: '/project-19.png',
       7: '/project-11.png',
       8: '/project-14.png',
       9: '/project-3.png',
@@ -23,6 +23,7 @@ const Portfolio = () => {
       12: '/project-31.png',
       13: '/project-32.png',
       14: '/project-33.png',
+      15: '/project-34.png',
     };
     
     return projectImages[projectId] || 'https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800';
@@ -247,6 +248,25 @@ githubUrl:'https://github.com/Myfza/Vixert-File-Converter-Website',
   liveUrl: "https://tetris-website.netlify.app/",
   githubUrl: "https://github.com/Myfza/tetris-python"
 },
+{
+  id: 16,
+  title: "Vortexa - AI-Powered Chat Assistant",
+  category: "AI & Computer Vision",
+  description: "An intelligent AI chatbot application built with React, Express, and Google Gemini AI.",
+  image: getProjectImage(15),
+  technologies: ["React", "Node.js", "Express.js","Typescript","CSS","Gemini 1.5 flash"],
+  features: [
+    "Intelligent conversations powered by Google's Gemini 1.5 Flash model",
+    "Real-time, responsive chat interface built with React and Typescript",
+    "Maintains conversation history for contextual understanding and follow-up questions",
+    "Secure backend powered by Node.js and Express to handle AI API requests",
+    "Dynamic streaming of responses for a natural, typewriter-style effect",
+    "Sleek and intuitive user interface for an engaging chat experience",
+    "Fully responsive design for seamless use on both desktop and mobile devices"
+  ],
+  liveUrl: "https://github.com/Myfza/Vortexa",
+  githubUrl: "https://vortexa-ai.netlify.app/"
+},
   ];
 
   const categories = [
@@ -286,7 +306,7 @@ githubUrl:'https://github.com/Myfza/Vixert-File-Converter-Website',
             My <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto font-poppins px-4 sm:px-0">
-            Showcasing projects across automation, AI, IoT, full-stack development, UI/UX, brand identity, network engineering, and hardware systems—delivering functional, impactful solutions.
+            Showcasing projects across automation, AI, IoT, Full-stack development, Game Development, Network engineering, and hardware systems—delivering functional, impactful solutions.
           </p>
         </motion.div>
 
